@@ -11,7 +11,7 @@ class HomeController extends AbstractController
     public $prenom = "Jérôme";
     public $nom = "Dias";
     /**
-     * @Route("/home", name="home")
+     * @Route("/", name="home")
      */
     public function index()
     {
